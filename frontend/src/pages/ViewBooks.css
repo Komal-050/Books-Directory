@@ -1,0 +1,129 @@
+.view-books-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .side-menu-container {
+    flex: 1;
+    max-width: 250px;
+    margin-right: 80px;
+    margin-left: -124px;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+  }
+  
+  .book-list-container {
+    width: 80%; 
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+
+   .form-control {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .side-menu {
+    padding: 10px;
+  }
+  
+  .side-menu h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #343a40;
+  }
+  
+  .side-menu .list-group-item {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 8px 12px;
+  }
+  
+  .side-menu .list-group-item:hover {
+    background-color: #e9ecef;
+  }
+
+  .book-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+  }
+  
+  .book-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f9f9f9; 
+    transition: background-color 0.3s;
+  }
+  
+  .book-item:hover {
+    background-color: #f1f1f1; 
+  }
+  
+  .book-item h5 {
+    margin: 0 0 5px; 
+  }
+  
+  .book-item p {
+    margin: 5px 0; 
+  }
+  
+  .btn {
+    margin-top: 10px; 
+  }
+
+  .btn-danger {
+    background-color: #dc3545; 
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333; 
+  }
+
+.edit-icons {
+  display: flex;
+  margin-top: 10px;
+  
+}
+
+.save-icon, .cancel-icon {
+  font-size: 1.5em;
+  cursor: pointer;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.save-icon:hover {
+  color: green;
+}
+
+.cancel-icon:hover {
+  color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
